@@ -12,9 +12,11 @@ import seaborn as sns
 # import altair
 import streamlit as st
 
-st.write('{}'.format())
+st.write('Context:{}'.format(os.getcwd()))
 
 # EDA
+df1 = pd.read_csv('train.csv')
+df1.shape
 
 # HMM
 
