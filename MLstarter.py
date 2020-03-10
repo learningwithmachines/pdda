@@ -18,7 +18,7 @@ context = os.getcwd()
 st.write('Context:{}'.format(context))
 
 # EDA
-df1 = pd.read_csv(context+'\\data\\train\\train.csv')
+df1 = pd.read_csv(context+'/data/train/train.csv')
 if st.checkbox('Show raw data'):
     st.subheader('Our Training Data')
     st.write(df1)
