@@ -1,1 +1,1 @@
-web: sh setup.sh && sh -c "cd ./src/ && exec streamlit run MLstarter.py"
+web: sh setup.sh && streamlit run MLstarter.py
