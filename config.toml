@@ -1,7 +1,0 @@
-[server]
-headless = true
-port = $PORT
-enableCORS = false
-
-[general]
-email = "spam.k312@gmail.com"
